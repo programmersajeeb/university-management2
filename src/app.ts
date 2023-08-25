@@ -1,5 +1,5 @@
-import express, { Application, Request, Response } from 'express';
 import cors from 'cors';
+import express, { Application, Request, Response } from 'express';
 import userRouter from './app/modules/user/user.route';
 const app: Application = express();
 
@@ -19,8 +19,3 @@ app.get('/', (req: Request, res: Response) => {
 });
 
 export default app;
-
-// https://us02web.zoom.us/j/87577910537...
-
-// Meeting ID: 875 7791 0537
-// Passcode: 242350
