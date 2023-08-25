@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\universityManagement2\\logs\\winston\\succeses\\.196110ba1798274f5af1bfb99258a50cf2c27587-audit.json",
+    "files": [
+        {
+            "date": 1692957145551,
+            "name": "G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\universityManagement2\\logs\\winston\\succeses\\success-08-25-15-8IAD.log",
+            "hash": "12b9d2793b5128bb914c68b1041f48bec45316af6633b26fdbbacff37c243c76"
+        }
+    ],
+    "hashType": "sha256"
+}
