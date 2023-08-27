@@ -1,2 +1,0 @@
-Fri Aug 25 2023, 15:54:26 [hello from errorLog!] error: Failed to connect the databse The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
-Fri Aug 25 2023, 15:56:31 [hello from errorLog!] error: Failed to connect the databse The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
