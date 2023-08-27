@@ -24,10 +24,10 @@ async function bootstrap() {
   }
 
   process.on('unhandledRejection', error => {
-    console.log('unhandle rejection occured, we are clossing your server...');
     if (server) {
       server.close(() => {
         errorLogger.error(error);
+        process.exit(1);
       });
     }
     process.exit(1);
@@ -36,8 +36,8 @@ async function bootstrap() {
 
 bootstrap();
 
-process.on('SIGTERM', error => {
-  logger.info('sigterm is rechive', error);
+process.on('SIGTERM', () => {
+  logger.info('sigterm is rechive');
   if (server) {
     server.close();
   }
