@@ -1,15 +1,15 @@
 {
-    "keep": {
-        "days": true,
-        "amount": 14
-    },
-    "auditLog": "G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\universityManagement2\\logs\\winston\\errors\\.5352d4a4f5d65a1603f02246e1c14fb87e2231a0-audit.json",
-    "files": [
-        {
-            "date": 1693129291914,
-            "name": "G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\universityManagement2\\logs\\winston\\errors\\errors-2023-08-27-15.log",
-            "hash": "c108c2c2b5b34bdfd1abb4d511936431eef98d017d304ca66b9ecd7d945237b2"
-        }
-    ],
-    "hashType": "sha256"
+  "keep": {
+    "days": true,
+    "amount": 14
+  },
+  "auditLog": "G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\universityManagement2\\logs\\winston\\errors\\.5352d4a4f5d65a1603f02246e1c14fb87e2231a0-audit.json",
+  "files": [
+    {
+      "date": 1693129291914,
+      "name": "G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\universityManagement2\\logs\\winston\\errors\\errors-2023-08-27-15.log",
+      "hash": "c108c2c2b5b34bdfd1abb4d511936431eef98d017d304ca66b9ecd7d945237b2"
+    }
+  ],
+  "hashType": "sha256"
 }
