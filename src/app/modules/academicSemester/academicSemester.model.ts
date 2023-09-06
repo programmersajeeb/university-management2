@@ -1,17 +1,22 @@
 import { Schema, model } from 'mongoose';
+import {
+  academicSemesterCodes,
+  academicSemesterMonts,
+  academicSemesterTitles,
+} from './academicSemester.const';
 import { IAcademicSemester, semesterModel } from './academicSemester.interface';
 
 const academicSemesterSchema = new Schema<IAcademicSemester>(
   {
-    // firstName: { type: String, required: true },
-    // lastName: { type: String, required: true }
     title: {
       type: String,
       required: true,
+      enum: academicSemesterTitles,
     },
     code: {
       type: String,
       required: true,
+      enum: academicSemesterCodes,
     },
     year: {
       type: Number,
@@ -20,10 +25,12 @@ const academicSemesterSchema = new Schema<IAcademicSemester>(
     startMonth: {
       type: String,
       required: true,
+      enum: academicSemesterMonts,
     },
     endMonth: {
       type: String,
       required: true,
+      enum: academicSemesterMonts,
     },
   },
   {
