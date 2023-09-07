@@ -1,0 +1,12 @@
+{
+  message: 'Database connect successfully',
+  level: 'info',
+  label: 'Info yahoo!',
+  timestamp: '2023-09-06T10:20:53.734Z'
+}
+{
+  message: 'Database listening on port 5000',
+  level: 'info',
+  label: 'Info yahoo!',
+  timestamp: '2023-09-06T10:20:53.794Z'
+}
